@@ -1,0 +1,74 @@
+body {
+	width: 60%;
+	margin-left: 25%
+}
+
+#main {
+	margin-top: 100px;
+}
+
+#main h1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#upper{
+	width: 100%;
+}
+
+#upper #textbox{
+	width: 77%;
+	float: left;
+	/*padding: 2px;*/
+	margin-bottom: 2px;
+}
+
+#upper #btn{
+	width: 20%;
+	float: right;
+	/*padding: 2px;*/
+}
+
+#tab{
+	width: 90%;
+}
+
+#tab td{
+	border: 1px solid ;
+	margin: 1px;
+	padding: 8px;
+	/*display: block;*/
+	/*background: green;*/
+}
+
+#tab td:hover {
+	background: grey;
+}
+
+#tab tr:nth-child(even) {
+	background: red;
+	color: white;
+}
+
+#tab tr:nth-child(odd) {
+	background: white;
+}
+
+body {
+	background-image: url('ToDo1.jpeg');
+}
+
+#h{
+	color: white;
+}
+
+
+/*
+#clear{
+	display: inline-block;
+	background: red;
+	width: 15%;
+	margin-left: none;
+	padding: 0;
+	border: none;
+}*/
